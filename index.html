@@ -10,42 +10,43 @@
 		html {
 			background: thistle;
 			color: seagreen;
+			font-family: monospace;
+			font-size: x-large;
+			height: 100%;
 		}
 
 		body {
-			text-align: center;
-			padding: 12em 1em 1em;
+			display: flex;
+			height: 100%;
+			max-height: 720px;
+			margin: 0;
 		}
 
-		code {
-			font-size: xx-large;
+		table {
+			margin: auto;
 		}
 
-		@media (max-width: 760px) {
-			code {
-				font-size: x-large;
-			}
-		}
-
-		@media (max-width: 600px) {
-			code {
-				font-size: large;
-			}
-		}
-
-		@media (max-width: 500px) {
-			code {
-				font-size: medium;
-			}
-		}
-
-		@media (max-width: 400px) {
-			code {
-				font-size: small;
-			}
+		td {
+			padding: 0 0.5em;
 		}
 	</style>
 	<body>
-		<code>QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn</code>
+		<table>
+			<tr>
+				<td>v0</td>
+				<td>base58</td>
+				<td>QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn</td>
+			</tr>
+			<tr>
+				<td>v1</td>
+				<td>base58</td>
+				<td>zdj7WbTaiJT1fgatdet9Ei9iDB5hdCxkbVyhyh8YTUnXMiwYi</td>
+			</tr>
+			<tr>
+				<td>v1</td>
+				<td>base32</td>
+				<td>bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354</td>
+			</tr>
+		</table>
 	</body>
 </html>
